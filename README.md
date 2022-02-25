@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [repository](https://github.com/Bravonoid/echo-discord-bot)
+-   Solution URL: [repository](https://github.com/Bravonoid/ecommerce-product-page)
 -   Live Site URL: [e-commerce-product-page](https://ecommerce-product-page-test.vercel.app/)
 
 ## My process
