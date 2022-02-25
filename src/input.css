@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.nav-info {
+		@apply pb-[42px] text-very-dark lg:text-dark-grayish lg:hover:border-b-4 lg:hover:border-orange lg:hover:text-very-dark lg:hover:-mb-1 transition duration-300 lg:ml-6;
+	}
+
+	.plus-minus {
+		@apply p-2 px-5 flex items-center cursor-pointer hover:brightness-150 transition;
+	}
+
+	.hide {
+		@apply scale-0 opacity-0;
+	}
+
+	.cart-active {
+		@apply fill-very-dark;
+	}
+
+	.ring-active {
+		@apply ring ring-orange;
+	}
+
+	.active {
+		@apply opacity-30;
+	}
+}
