@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 -   Solution URL: [repository](https://github.com/Bravonoid/ecommerce-product-page)
--   Live Site URL: [e-commerce-product-page](https://ecommerce-product-page-test.vercel.app/)
+-   Live Site URL: [e-commerce-product-page](https://ecommerce-product-page-bravonoid.vercel.app/)
 
 ## My process
 

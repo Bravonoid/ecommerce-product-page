@@ -35,7 +35,7 @@ function loadCart(inside, items) {
 	<section>
 		<div class="flex gap-3 relative">
 			<img
-				src="../images/image-product-1.jpg"
+				src="./images/image-product-1.jpg"
 				alt=""
 				class="w-1/6 rounded"
 			/>
