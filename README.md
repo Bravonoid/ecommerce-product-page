@@ -33,21 +33,22 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://your-solution-url.com)
--   Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+-   Solution URL: [repository](https://github.com/Bravonoid/echo-discord-bot)
+-   Live Site URL: [e-commerce-product-page](https://ecommerce-product-page-test.vercel.app/)
 
 ## My process
 
 ### Built with
 
 -   Semantic HTML5 markup
--   Tailwind CSS
 -   Flexbox
 -   [Tailwind CSS](https://tailwindcss.com/) - CSS Frameworks
 
 ### What I learned
 
 Since this is my first project using TailwindCSS, it feels like i am writing CSS in a whole different universe, it's really a life changing. Even though, things didn't quite works well with what i want at first because i realized that TailwindCSS is using mobile-first workflow right after i finished designing my desktop version. Eventually, i managed to fix some things related to responsive design and finally finishing up.
+
+Example implementation of TailwindCSS
 
 ```html
 <button
@@ -71,6 +72,8 @@ Since this is my first project using TailwindCSS, it feels like i am writing CSS
 	</svg>
 </button>
 ```
+
+Local storage usage
 
 ```js
 // Config localStrogae
