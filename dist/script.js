@@ -112,7 +112,7 @@ function lightBox(thumbsLight, heroLight, index) {
 // localStorage["total"] = 0;
 // Check cart items
 let items = parseInt(localStorage.getItem("total"));
-if (items <= 0) {
+if (items <= 0 || !items) {
 	emptyCart(insideCart);
 } else {
 	loadCart(insideCart, items);
