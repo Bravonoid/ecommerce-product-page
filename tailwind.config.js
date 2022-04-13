@@ -1,5 +1,9 @@
 module.exports = {
 	content: ["./dist/**/*.{html,js}"],
+	container: {
+		center: true,
+		padding: "1rem",
+	},
 	theme: {
 		extend: {
 			fontFamily: {
@@ -27,6 +31,9 @@ module.exports = {
 					"0%": { opacity: "0" },
 					"100%": { opacity: "0.75" },
 				},
+			},
+			screens: {
+				"2xl": "1320px",
 			},
 		},
 	},

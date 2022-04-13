@@ -496,9 +496,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 }
 
-@media (min-width: 1536px) {
+@media (min-width: 1320px) {
   .container {
-    max-width: 1536px;
+    max-width: 1320px;
   }
 }
 
@@ -1025,21 +1025,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   stroke: #1D2026;
 }
 
-.p-2 {
-  padding: 0.5rem;
-}
-
 .p-3 {
   padding: 0.75rem;
 }
 
 .p-6 {
   padding: 1.5rem;
-}
-
-.px-5 {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
 }
 
 .py-3 {
@@ -1070,10 +1061,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-}
-
-.pb-\[42px\] {
-  padding-bottom: 42px;
 }
 
 .pr-4 {
@@ -1168,11 +1155,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   letter-spacing: 0.1em;
 }
 
-.text-very-dark {
-  --tw-text-opacity: 1;
-  color: hsl(220 13% 13% / var(--tw-text-opacity));
-}
-
 .text-dark-grayish {
   --tw-text-opacity: 1;
   color: hsl(219 9% 45% / var(--tw-text-opacity));
@@ -1181,6 +1163,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-very-dark {
+  --tw-text-opacity: 1;
+  color: hsl(220 13% 13% / var(--tw-text-opacity));
 }
 
 .text-orange {
@@ -1232,12 +1219,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-shadow: var(--tw-shadow-colored);
 }
 
-.ring {
-  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
-  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(3px + var(--tw-ring-offset-width)) var(--tw-ring-color);
-  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
-}
-
 .transition {
   transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
@@ -1279,11 +1260,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .hover\:ring-orange:hover {
   --tw-ring-opacity: 1;
   --tw-ring-color: hsl(26 100% 55% / var(--tw-ring-opacity));
-}
-
-.hover\:brightness-150:hover {
-  --tw-brightness: brightness(1.5);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .hover\:brightness-125:hover {
@@ -1526,29 +1502,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     line-height: 2.5rem;
   }
 
-  .lg\:text-dark-grayish {
-    --tw-text-opacity: 1;
-    color: hsl(219 9% 45% / var(--tw-text-opacity));
-  }
-
-  .lg\:hover\:-mb-1:hover {
-    margin-bottom: -0.25rem;
-  }
-
-  .lg\:hover\:border-b-4:hover {
-    border-bottom-width: 4px;
-  }
-
-  .lg\:hover\:border-orange:hover {
-    --tw-border-opacity: 1;
-    border-color: hsl(26 100% 55% / var(--tw-border-opacity));
-  }
-
-  .lg\:hover\:text-very-dark:hover {
-    --tw-text-opacity: 1;
-    color: hsl(220 13% 13% / var(--tw-text-opacity));
-  }
-
   .lg\:hover\:shadow-xl:hover {
     --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
     --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
@@ -1582,7 +1535,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 }
 
-@media (min-width: 1536px) {
+@media (min-width: 1320px) {
   .\32xl\:mt-40 {
     margin-top: 10rem;
   }
